@@ -1,0 +1,28 @@
+.elements {
+   display: grid;
+   box-sizing: border-box;
+   aspect-ratio: auto;
+   object-fit: cover;
+   grid-template-columns: 1fr 1fr 1fr;
+   grid-template-rows: auto;
+   gap: 16px;
+   border-color: white;
+   margin: 0 auto;
+}
+
+
+@media screen and (max-width: 890px) {
+
+   .elements {
+      max-width: fit-content;
+      grid-template-columns: 1fr 1fr;
+   }
+}
+
+@media screen and (max-width: 590px) {
+
+   .elements {
+      max-width: fit-content;
+      grid-template-columns: 1fr;
+   }
+}

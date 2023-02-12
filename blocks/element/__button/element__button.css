@@ -1,0 +1,10 @@
+.element__button {
+   min-width: 22px;
+   min-height: 19px;
+   margin-left: 18px;
+   background-image: url(../../../pictures/Vector\ \(Stroke\).png);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-color: white;
+   border-style: none;
+}

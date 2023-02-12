@@ -1,0 +1,20 @@
+.profile__add-button {
+   height: 50px;
+   width: 150px;
+   background-image: url(../../../pictures/Add\ Button.png);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-color: transparent;
+   cursor: pointer;
+}
+
+
+@media screen and (max-width: 690px) {
+
+   .profile__add-button {
+      min-height: 50px;
+      width: 282px;
+      background-image: url(../../../pictures/Add\ Button2.png);
+      background-color: transparent;
+   }
+}
