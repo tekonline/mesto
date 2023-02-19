@@ -12,6 +12,8 @@
       margin: 0 auto;
       text-align: center;
       margin-bottom: 36px;
-      margin-top: 28px;
+      margin-top: 25px;
+      grid-template-columns: 190px 25px;
+      padding-left: 22px;
    }
 }

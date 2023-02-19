@@ -5,65 +5,9 @@
    background-color: rgba(0, 0, 0, 0.8);
    top: 0;
    left: 0;
-}
-
-.popup__body {
-   min-height: 100%;
-   display: flex;
-   align-items: center;
-   justify-content: center;
-}
-
-.popup__content {
-   display: flex;
-   flex-direction: column;
-   background-color: aliceblue;
-   min-width: 430px;
-   min-height: 330px;
-   border-radius: 5px;
-}
-
-.popup__input {
-   max-width: 358px;
-   max-height: 27px;
-   margin: 0 36px 0 36px;
-   border-style: none;
-   border-bottom: 1px solid gray;
-
+   display: none;
 }
 
 
-.popup__title {
-   margin-top: 34px;
-   margin-bottom: 54px;
-   font-family: 'Inter';
-   font-style: normal;
-   font-weight: 900;
-   font-size: 24px;
-   line-height: 29px;
-   color: #000000;
-   margin-left: 36px;
-}
 
-.popup__input-name {
-   margin-bottom: 30px;
-}
 
-.savebtn {
-   min-width: 358px;
-   min-height: 50px;
-   background-color: black;
-   color: white;
-   margin: 0 auto;
-   border-style: none;
-   border-radius: 5px;
-   margin-top: 48px;
-   font-family: 'Inter';
-      font-style: normal;
-      font-weight: 400;
-      font-size: 18px;
-      line-height: 22px;
-      text-align: center;
-   
-      color: #FFFFFF;
-}

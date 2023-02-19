@@ -19,5 +19,7 @@
    .profile {
       flex-direction: column;
       max-height: fit-content;
+      margin-bottom: 35px;
+      margin-top: 45px;
    }
 }

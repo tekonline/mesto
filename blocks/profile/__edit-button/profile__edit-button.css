@@ -11,13 +11,21 @@
    align-self: center;
 }
 
+.profile__edit-button:hover {
+   background-image: url(../../../pictures/Edit\ Button\ gray.png);
+   border-color: gray;
+}
+
 @media screen and (max-width: 690px) {
-  
-   .edit__button {
+   .profile__edit-button {
       max-width: 18px;
       max-height: 18px;
       margin-left: 10px;
-      background-image: url(./pictures/Edit_button_s.png);
+      background-image: url(../../../pictures/Edit_button_s.png);
       align-self: center;
+   }
+
+   .profile__edit-button:hover {
+      opacity: 0.8;
    }
 }

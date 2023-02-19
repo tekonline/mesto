@@ -5,16 +5,30 @@
    background-position: center;
    background-repeat: no-repeat;
    background-color: transparent;
+   border-style: none;
    cursor: pointer;
+   border: 1px white solid;
+   align-self: center;
 }
 
+.profile__add-button:hover {
+   background-image: url(../../../pictures/add\ button\ gray.png);
+   opacity: 0.8;
+   border: 1px gray solid;
+}
 
 @media screen and (max-width: 690px) {
 
+
+   
    .profile__add-button {
       min-height: 50px;
       width: 282px;
       background-image: url(../../../pictures/Add\ Button2.png);
       background-color: transparent;
+   }
+
+   .profile__add-button:hover {
+      opacity: 0.8;
    }
 }
