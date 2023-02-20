@@ -6,3 +6,4 @@
 
 ссылка на gh-pages:
 
+https://tekonline.github.io/mesto/
