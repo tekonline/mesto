@@ -1,13 +1,13 @@
 .popup__container {
-    display: flex;
-    flex-direction: column;
-    background-color: transparent;
-    width: 500px;
- }
+   display: flex;
+   flex-direction: column;
+   background-color: transparent;
+   width: 500px;
+}
 
 
  @media screen and (max-width: 650px) {
     .popup__container {
-    width: 280px;
+      width: 280px;
    }
  }

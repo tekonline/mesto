@@ -1,15 +1,14 @@
 .popup__input {
     max-width: 358px;
-    max-height: 27px;
     margin-left: 36px;
     margin-right: 36px;
     border-style: none;
     border-bottom: 1px solid gray;
-    font-family: 'Inter';
+    font-family: 'Inter', 'Arial', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 17px;
     color: #000000;
     padding-bottom: 13px;
- }
+}
