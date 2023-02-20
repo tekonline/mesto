@@ -3,7 +3,7 @@
     width: 32px;
     height: 32px;
     border-style: none;
-    background-image: url(../../../pictures/Close\ Icon.png);
+    background-image: url(../../../pictures/close_icon.png);
     background-color: transparent;
     justify-self: flex-end;
     align-self: flex-end;
@@ -18,7 +18,7 @@
 
  @media screen and (max-width: 650px) {
   .popup__close-btn {
-    background-image: url(../../../pictures/Close\ Icon\ s.png); 
+    background-image: url(../../../pictures/close_icon_s.png); 
     width: 20px;
     height: 20px;
     margin-bottom: 16px;

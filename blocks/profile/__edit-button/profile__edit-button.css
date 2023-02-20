@@ -1,19 +1,16 @@
 .profile__edit-button {
    max-width: 24px;
    max-height: 24px;
-   background-image: url(../../../pictures/Edit\ Button.svg);
    background-position: center;
    background-repeat: no-repeat;
    background-color: transparent;
    border-style: none;
    cursor: pointer;
-   border: 1px white solid;
    align-self: center;
 }
 
 .profile__edit-button:hover {
-   background-image: url(../../../pictures/Edit\ Button\ gray.png);
-   border-color: gray;
+  opacity: 0.8;
 }
 
 @media screen and (max-width: 690px) {
@@ -21,7 +18,6 @@
       max-width: 18px;
       max-height: 18px;
       margin-left: 10px;
-      background-image: url(../../../pictures/Edit_button_s.png);
       align-self: center;
    }
 
