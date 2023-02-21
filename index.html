@@ -11,74 +11,78 @@
     <header class="header">
         <img class="header__logo" src="./pictures/logo.svg" alt="Логотип">
     </header>
-    <div class="profile">
-        <img class="profile__avatar" src="./pictures/avatar.jpg" alt="аватар">
+    <main class="main">
+    <section class="profile">
+        <img class="profile__avatar" src="./pictures/avatar.svg" alt="аватар">
         <div class="profile__info">
         <h1 class="profile__title">Жак-Ив Кусто</h1>
-        <button class="profile__edit-button"><img src="pictures/edit_Button.svg" alt="кнопка Редактировать"></button>
+        <button type="button" class="profile__edit-button">
+          <img src="pictures/edit_Button.svg" alt="кнопка Редактировать">
+        </button>
         <p class="profile__subtitle">Исследователь Океана</p>
         </div>
-    <button class="profile__add-button"></button>
-    </div>
-    <div class="elements">
-        <div class="element">
-            <img class="element__img" src="./pictures/elbr.png" alt="фотография">
+    <button type="button" class="profile__add-button"></button>
+    </section>
+    <article class="elements">
+        <section class="element">
+            <img class="element__img" src="./pictures/dombay.svg" alt="фотография">
             <div class="element__container">
-             <p class="element__text">Рандомный текст очень длинный</p>
-             <button class="element__button"></button>
+              <h2 class="element__text">Рандомный текст очень длинный</h2>
+              <button type="button" class="element__button"></button>
             </div>
-         </div>
-        <div class="element">
-            <img class="element__img" src="./pictures/elbr.png" alt="фотография">
+         </section>
+        <section class="element">
+            <img class="element__img" src="./pictures/dombay.svg" alt="фотография">
             <div class="element__container">
-             <p class="element__text">Рандомный текст</p>
-             <button class="element__button"></button>
+              <h2 class="element__text">Рандомный текст</h2>
+              <button type="button" class="element__button"></button>
             </div>
-         </div>
-         <div class="element">
-            <img class="element__img" src="./pictures/elbr.png" alt="фотография">
+         </section>
+         <section class="element">
+            <img class="element__img" src="./pictures/dombay.svg" alt="фотография">
             <div class="element__container">
-             <p class="element__text">Рандомный текст</p>
-             <button class="element__button"></button>
+              <h2 class="element__text">Рандомный текст</h2>
+              <button type="button" class="element__button"></button>
             </div>
-         </div>
-         <div class="element">
-            <img class="element__img" src="./pictures/elbr.png" alt="фотография">
+         </section>
+         <section class="element">
+            <img class="element__img" src="./pictures/dombay.svg" alt="фотография">
             <div class="element__container">
-             <p class="element__text">Рандомный текст</p>
-             <button class="element__button"></button>
+              <h2 class="element__text">Рандомный текст</h2>
+              <button type="button" class="element__button"></button>
             </div>
-         </div>
-         <div class="element">
-            <img class="element__img" src="./pictures/elbr.png" alt="фотография">
+         </section>
+         <section class="element">
+            <img class="element__img" src="./pictures/dombay.svg" alt="фотография">
             <div class="element__container">
-             <p class="element__text">Рандомный текст</p>
-             <button class="element__button"></button>
+              <h2 class="element__text">Рандомный текст</h2>
+              <button type="button" class="element__button"></button>
             </div>
-         </div>
-         <div class="element">
-            <img class="element__img" src="./pictures/elbr.png" alt="фотография">
+         </section>
+         <section class="element">
+            <img class="element__img" src="./pictures/dombay.svg" alt="фотография">
             <div class="element__container">
-             <p class="element__text">Рандомный текст</p>
-             <button class="element__button"></button>
+              <h2 class="element__text">Рандомный текст</h2>
+              <button type="button" class="element__button"></button>
             </div>
-         </div>
-    </div>
+         </section>
+    </article>
+    </main>
     <footer class="footer">
         <p class="footer__text">© 2020 Mesto Russia</p></footer>
         <div class="popup">
             <div class="popup__body">
                 <div class="popup__container">
-                <button class="popup__close-btn"></button>
-                <form class="popup__content">
-                    <p class="popup__title">Редактировать профиль</p>
-                    <input class="popup__input popup__input-name" type="text" placeholder="Имя">
-                    <input class="popup__input popup__input-job" type="text" placeholder="О себе">
-                     <button type="submit" class="popup__save">Сохранить</button>
+                <button type="button" class="popup__close-btn"></button>
+                <form class="popup__content"name="popup-form">
+                    <h2 class="popup__title">Редактировать профиль</h2>
+                    <input name="name" class="popup__input popup__input-name" type="text" placeholder="Имя">
+                    <input name="job" class="popup__input popup__input-job" type="text" placeholder="О себе">
+                    <button type="submit" class="popup__save">Сохранить</button>
                 </form>
             </div>
             </div>
         </div>
-        <script src="./pages/index.js"></script>
+        <script src="./script/script.js"></script>
 </body>
 </html>

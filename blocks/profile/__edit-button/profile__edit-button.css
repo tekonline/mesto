@@ -10,7 +10,7 @@
 }
 
 .profile__edit-button:hover {
-  opacity: 0.8;
+  opacity: 0.6;
 }
 
 @media screen and (max-width: 690px) {
@@ -18,10 +18,5 @@
       max-width: 18px;
       max-height: 18px;
       margin-left: 10px;
-      align-self: center;
-   }
-
-   .profile__edit-button:hover {
-      opacity: 0.8;
    }
 }

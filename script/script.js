@@ -7,17 +7,16 @@ let inputName = document.querySelector (".popup__input-name")
 let inputJob = document.querySelector (".popup__input-job")
 let profileTitle = document.querySelector (".profile__title")
 let profileJob = document.querySelector (".profile__subtitle")
-let saveButton = document.querySelector (".popup__save")
 
 
 function openPopup () {
-    popup.classList.add("popup__opened")
+    popup.classList.add("popup-opened")
     inputName.value = profileTitle.textContent;
     inputJob.value = profileJob.textContent;
 }
 
 function closePopup () {
-    popup.classList.remove("popup__opened")
+    popup.classList.remove("popup-opened")
 }
 
 function handleFormSubmit (evt) {

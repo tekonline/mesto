@@ -1,7 +1,7 @@
 .element__button {
    min-width: 22px;
    margin-left: 18px;
-   background-image: url(../../../pictures/stroke.png);
+   background-image: url(../../../pictures/stroke.svg);
    background-position: center;
    background-repeat: no-repeat;
    background-color: white;
@@ -10,5 +10,5 @@
 }
 
 .element__button:hover {
-   opacity: 0.6;
+   opacity: 0.5;
 }
