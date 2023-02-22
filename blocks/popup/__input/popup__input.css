@@ -11,4 +11,12 @@
     line-height: 17px;
     color: #000000;
     padding-bottom: 13px;
+   margin-bottom: 30px;
 }
+
+
+ @media screen and (max-width: 650px) {
+     .popup__input {
+         margin-left: 20px;
+     }
+ }

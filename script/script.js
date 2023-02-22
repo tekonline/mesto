@@ -3,20 +3,20 @@ let editButton = document.querySelector (".profile__edit-button")
 let closeButton = document.querySelector (".popup__close-btn")
 
 let formElement = document.querySelector (".popup__content")
-let inputName = document.querySelector (".popup__input-name")
-let inputJob = document.querySelector (".popup__input-job")
+let inputName = document.querySelector (".popup__input_type_name")
+let inputJob = document.querySelector (".popup__input_type_job")
 let profileTitle = document.querySelector (".profile__title")
 let profileJob = document.querySelector (".profile__subtitle")
 
 
 function openPopup () {
-    popup.classList.add("popup-opened")
+    popup.classList.add("popup_opened")
     inputName.value = profileTitle.textContent;
     inputJob.value = profileJob.textContent;
 }
 
 function closePopup () {
-    popup.classList.remove("popup-opened")
+    popup.classList.remove("popup_opened")
 }
 
 function handleFormSubmit (evt) {
